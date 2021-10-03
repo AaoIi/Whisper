@@ -1,6 +1,6 @@
 import UIKit
 
-public protocol NotificationControllerDelegate: class {
+public protocol NotificationControllerDelegate: AnyObject {
   func notificationControllerWillHide()
 }
 
